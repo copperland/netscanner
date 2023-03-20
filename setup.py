@@ -21,7 +21,7 @@ def setup():
               [2] - Install Dependencies with PIP3
         """)
 
-        result = input("[root@whoami]: ")
+        result = input("[root@copperland]: ")
 
 
         if result == "1":
