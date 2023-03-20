@@ -38,7 +38,7 @@ def scan(ip):
         client_dict = {"ip": element[1].psrc, "mac": element[1].hwsrc}
         clients_list.append(client_dict)
     return clients_list
-# print(element[1].psrc + "\t\t" + element[1].hwsrc)
+
 
 
 
