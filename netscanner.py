@@ -18,7 +18,7 @@ def banner():
 
 def get_arguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-i", "--ip_addres", dest="target_ip", help="Target IP / IP range.")
+    parser.add_argument("-i", "--ip_addres", dest="target_ip", help="Target IP / IP range example: 10.0.2.0/24 ")
     options = parser.parse_args()
     return options
 
